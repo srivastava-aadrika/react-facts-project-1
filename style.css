@@ -1,0 +1,49 @@
+body{
+    margin : 0;
+    font-family: Inter,sans-serif;
+    height: 100vh;
+    background-color: #282d35;
+
+}
+
+
+nav {
+    display : flex;
+    align-items : center ;
+    background-color: beige;
+    padding : 30px 25px;
+    justify-content : space-between;
+}
+
+nav > h3{
+   
+    color : #61DAFB;
+    margin-right: auto;
+    font-weight : 700;
+    font-size : 22px;
+}
+nav > h4{
+    padding: 10px;
+    font-weight: 600;
+}
+
+main{
+   margin : 0;
+    color : white;
+}
+.main-title{
+    color: #61DAFB;
+    font-size: 39px;
+}
+.main--facts{
+    margin-top : 46px;
+}
+.main--facts >li{
+    line-height: 19px;
+    padding-block : 10px;
+}
+
+.main--facts > li::marker{
+    font-size : 1.4rem;
+    color:#61DAFB;
+}
